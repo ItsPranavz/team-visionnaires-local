@@ -1,8 +1,9 @@
 import React from 'react'
 import {useState} from 'react';
-import '../App.css';
+import '../styles/contactform.css';
+
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = useState('Send')
+  const [formStatus, setFormStatus] = useState('Request a demo')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Submitting...')
@@ -17,7 +18,7 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <div className="container mt-5 form-container">
+    <div className="container mt-5 p-4 form-container">
      <h2>Contact Us</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
