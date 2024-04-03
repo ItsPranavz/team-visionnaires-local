@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+.header-logo {
+    height: 60px;
+    width: auto;
+}
+
+.header-link, .header-button {
+    margin: 5px;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-link::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #773344;
+    display: block;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.header-link:hover::after {
+    opacity: 1;
+}

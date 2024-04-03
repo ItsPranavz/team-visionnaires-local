@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+h2 {
+  text-align: center;
+  color: #773344;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+}
+
+.btn btn-danger {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  background-color: #b57267;
+  border-color: none;
+}
+
+.button button:hover {
+  background-color: #773344;
+}
+
+.form-label {
+  color: #773344;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+}
+
+.form-container {
+  background-color: #F5DEBD;
+  border-radius: 20px;
+}
+
+.form-control:hover {
+  border-color: rgb(221, 137, 151);
+
+}
+
+
+.form-container h2 {
+  color: #773344;
+}
