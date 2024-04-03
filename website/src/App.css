@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+h2 {
+  text-align: center;
+  color:#773344;
+  font-family: Cambria;
+  font-weight: 700;
+}
+
+.btn btn-danger{
+  text-align: center;
+  
+}
+
+.button{
+  text-align: center;
+}
+
+.button button{
+   background-color: #B68981;
+   border-color:none;
+}
+
+.button button:hover{
+    background-color:#773344;
+}
+.form-label{
+  color: #773344;
+ font-weight: 600;
+ font-family: Cambria;
+}
+
+.form-container {
+  background-color: #F5DEBD;
+}
+
+.form-control:hover{
+   border-color: pink;
+
+}
+
+
+.form-container h2{
+  color:#773344;
+}
