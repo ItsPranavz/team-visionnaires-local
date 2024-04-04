@@ -6,7 +6,7 @@ const Typewriter = ({ text, delay }) => {
             sequence={[
                 'FINDING THE RIGHT SOLUTION FOR YOUR BUSINESS IN SUPPLY CHAIN ANALYSIS',
                 1000,
-                'FINDING THE RIGHT SOLUTION FOR YOUR BUSINESS IN TRANSPORT MONITERING',
+                'FINDING THE RIGHT SOLUTION FOR YOUR BUSINESS IN TRANSPORT MONIT0RING',
                 1000,
                 'FINDING THE RIGHT SOLUTION FOR YOUR BUSINESS IN DEMAND FORECASTING',
                 1000

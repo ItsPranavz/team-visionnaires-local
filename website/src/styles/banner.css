@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
-* {
-    font-family: 'poppins', sans-serif;
-    color: whitesmoke;
-}
-
 .banner-image {
     width: 100%;
 }
 
-p {
+.container-column p {
     text-align: justify;
-    padding-top: 30px
+    padding-top: 30px;
+    color: whitesmoke;
+    font-family: 'poppins', sans-serif;
 }
 
-h2 {
+.container-column h5 {
+    color: whitesmoke;
     text-align: justify;
+    font-family: 'poppins', sans-serif;
 }
 
 .banner-container {

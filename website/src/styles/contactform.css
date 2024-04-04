@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
-
 h2 {
   text-align: center;
   color: #773344;
-  font-family: 'poppins', sans-serif;
+  font-family: Cambria;
   font-weight: 700;
 }
 
@@ -27,7 +25,7 @@ h2 {
 .form-label {
   color: #773344;
   font-weight: 600;
-  font-family: 'poppins', sans-serif;
+  font-family: Cambria;
 }
 
 .form-container {
