@@ -6,13 +6,7 @@ import {useState} from 'react';
 import '../styles/footer.css';
 
 function Footer() {
-  const [showContactForm, setShowContactForm] = useState(false);
   
-
-  const toggleContactForm = () => {
-    setShowContactForm(!showContactForm);
-  };
-
   
   
   return (
@@ -76,12 +70,7 @@ function Footer() {
         </MDBContainer>
       </section>
           
-      <div className='text-center p-4 custom-bg custom-color'>
-          <button className="contact" onClick={toggleContactForm}>Contact Us</button>
-         
-        </div>
-
-      {showContactForm && <ContactForm />}
+      
 
       <div className='text-center p-4 custom-background custom-text-color' >
         © 2024 Copyright  All Rights Reserved 
