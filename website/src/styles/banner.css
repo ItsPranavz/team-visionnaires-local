@@ -1,31 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
 .banner-image {
-    width: 100%;
+    width: 100vw;
+    display: block;
 }
 
-.container-column p {
-    text-align: justify;
+.banner-content {
+    font-size: 16px;
+    text-align: left;
     padding-top: 30px;
     color: whitesmoke;
     font-family: 'poppins', sans-serif;
 }
 
-.container-column h5 {
+.banner-heading {
+    font-size: 25px;
     color: whitesmoke;
-    text-align: justify;
     font-family: 'poppins', sans-serif;
 }
 
 .banner-container {
     position: relative;
+    display: inline-block;
 }
 
 .container-column {
-    width: 600px;
+    width: 40vw;
     position: absolute;
-    top: 90px;
-    left: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1370px) {
+    .banner-content {
+        font-size: 12px;
+    }
+    .banner-heading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1054px) {
+    .banner-content {
+        font-size: 8px;
+    }
+    .banner-heading {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 822px) {
+    .banner-content {
+        font-size: 10px;
+    }
+    .banner-heading {
+        font-size: 16px;
+    }
+    .container-column {
+        width: 80vw;
+        top: 40%;
+        left: 85%;
+        transform: translate(-100%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 638px) {
+    .banner-content {
+        color: black;
+        font-size: 10px;
+    }
+    .banner-heading {
+        color: black;
+        font-size: 14px;
+    }
+    .container-column {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        transform: translate(0px, 0px);
+    }
 }
