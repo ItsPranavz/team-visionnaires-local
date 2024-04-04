@@ -3,12 +3,12 @@
 }
 
 .custom-footer {
-  background-color: #F5DEBD;
+  background-color: #DADFF7;
   font-family: Cambria;
 }
 
 .custom-background {
-  background-color: #773344;
+  background-color: #232C33;
 }
 
 .custom-text-color {
@@ -30,4 +30,17 @@
 
 .company-name{
   background-color:white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+
+.footer-title {
+  color: rgb(145, 27, 27) !important;
 }

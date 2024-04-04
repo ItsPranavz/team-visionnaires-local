@@ -1,11 +1,11 @@
 import {Row,Col} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import '../styles/choose.css';
+import '../styles/features.css';
 import demandForecasting from '../assets/demand-forecasting.jpg';
 import supplyChain from '../assets/supplychainmgmt.jpg';
 import transportMonitoring from '../assets/transport-monitoring.jpg';
 
-function WhyChoose() {
+function Features() {
   return (
     <>
     <Row className="justify-content-center">
@@ -49,4 +49,4 @@ function WhyChoose() {
   );
 }
 
-export default WhyChoose;
+export default Features;
