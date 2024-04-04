@@ -5,7 +5,6 @@ import Banner from './components/Banner.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import  WhyChoose  from '../src/components/WhyChoose.jsx';
-
 function App() {
   return (
     <>
@@ -13,6 +12,7 @@ function App() {
         <Banner />
         <WhyChoose />
         <Footer />
+        
     </>
   );
 }
