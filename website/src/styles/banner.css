@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    font-family: 'poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    padding-top: 30px
+}
+
+h2 {
+    text-align: justify;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.container-column {
+    width: 600px;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+}
