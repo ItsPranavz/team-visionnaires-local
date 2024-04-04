@@ -4,14 +4,16 @@ import Footer from './components/Footer.jsx';
 import Banner from './components/Banner.jsx';
 import ContactForm from './components/ContactForm.jsx';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import  WhyChoose  from '../src/components/WhyChoose.jsx';
+import  Features  from '../src/components/Features.jsx';
+import Heading from './components/Heading.jsx';
 
 function App() {
   return (
     <>
         <Header />
         <Banner />
-        <WhyChoose />
+        <Heading title="Key Features" />
+        <Features />
         <Footer />
     </>
   );
