@@ -6,6 +6,7 @@ import Data from './components/Data.jsx';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import  Features  from '../src/components/Features.jsx';
 import Heading from './components/Heading.jsx';
+import WhySection from './components/WhySection.jsx';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Heading title="Key Features" />
         <Features />
         <Data />
+        <Heading title="Why Choose Us?" />
+        <WhySection />
         <Footer />
     </>
   );
