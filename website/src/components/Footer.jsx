@@ -6,9 +6,6 @@ import {useState} from 'react';
 import '../styles/footer.css';
 
 function Footer() {
-  
-  
-  
   return (
     <MDBFooter  className='custom-footer text-center text-lg-start text-muted'>
       <section className=''>
