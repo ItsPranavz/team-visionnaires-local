@@ -1,8 +1,10 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import '../App.css';
+import '../styles/footer.css';
 import ContactForm from '../components/ContactForm';
 import {useState} from 'react';
+import '../styles/footer.css';
+
 function Footer() {
   const [showContactForm, setShowContactForm] = useState(false);
   
