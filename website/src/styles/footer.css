@@ -1,25 +1,25 @@
-.text-center p-4{
-    background-color: #F5DEBD;
-  }
-  
-  .custom-footer {
-    background-color: #F5DEBD;
-    font-family:Cambria;
-  }
-  
-  .custom-background {
-    background-color: #773344;
-  }
-  
-  .custom-text-color {
-    color: #ffffff; 
-  }
-  
-  .custom-bg{
-     background-color: #C08C83;
-  }
-  
-  .contact{
-    background-color: #F5DEBD;
-    color:#282c34;
-  }
+.text-center p-4 {
+  background-color: #F5DEBD;
+}
+
+.custom-footer {
+  background-color: #F5DEBD;
+  font-family: Cambria;
+}
+
+.custom-background {
+  background-color: #773344;
+}
+
+.custom-text-color {
+  color: #ffffff;
+}
+
+.custom-bg {
+  background-color: #C08C83;
+}
+
+.contact {
+  background-color: #F5DEBD;
+  color: #282c34;
+}
