@@ -10,7 +10,7 @@ function Features() {
     <>
     <Row className="justify-content-center">
     <Col xs={10} sm={8} md={4} lg={2} className="card-container">
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className='features-card'>
       <Card.Img variant="top" src={supplyChain} />
       <Card.Body>
         <Card.Title>Supply Chain Analysis</Card.Title>
@@ -22,7 +22,7 @@ function Features() {
     </Col>
 
     <Col xs={10} sm={8} md={4} lg={2} className="card-container">
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className='features-card' >
       <Card.Img variant="top" src={transportMonitoring} />
       <Card.Body>
         <Card.Title>Transport Monitoring</Card.Title>
@@ -34,7 +34,7 @@ function Features() {
     </Col>
 
     <Col xs={10} sm={8} md={4} lg={2} className="card-container">
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className='features-card'>
       <Card.Img variant="top" src={demandForecasting} />
       <Card.Body>
         <Card.Title>Demand Forecasting</Card.Title>
