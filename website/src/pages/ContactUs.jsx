@@ -9,14 +9,15 @@ import '../styles/contactus.css';
 function ContactUs() {
     return (
         <>
-        <Header />
-        <img src={reachout} />
-        <div className="contact-animation">
-        <ContactForm />
-        
-        <Lottie className='hand-animation' animationData={AnimatedHand} />
-        </div>
-        <Footer />
+            <Header />
+            <img className="contact-image" src={reachout} />
+            <div className="contact-animation">
+                <div className="contact-form">
+                    <ContactForm />
+                </div>
+                <Lottie className='hand-animation' animationData={AnimatedHand} />
+            </div>
+            <Footer />
         </>
     );
 }
