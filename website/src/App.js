@@ -8,20 +8,11 @@ import  Features  from '../src/components/Features.jsx';
 import Heading from './components/Heading.jsx';
 import WhySection from './components/WhySection.jsx';
 import ProductSection from './components/ProductSection.jsx';
-
+import Products from './pages/Products.jsx';
 function App() {
   return (
     <>
-        <Header />
-        <Banner />
-        <Heading title="Key Features" />
-        <Features />
-        <Data />
-        <Heading title="Why Choose Us?" />
-        <WhySection />
-        <Footer />
-
-        <ProductSection />
+        <Products />
     </>
   );
 }

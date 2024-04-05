@@ -12,7 +12,7 @@ function OurTeam() {
             <div className="team-background">
                 <Row className="justify-content-center">
                     <Col xs={10} sm={8} md={4} lg={2} className="pic-container">
-                        <Card style={{ width: '18rem' }} className="about-card">
+                        <Card style={{ width: '18rem' }} className="about-card" >
                             <Card.Img variant="top" src={PranavSharma} className="circular-img" />
                             <Card.Body>
                                 <Card.Title>Pranav Sharma</Card.Title>
