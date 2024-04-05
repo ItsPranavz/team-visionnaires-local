@@ -11,7 +11,7 @@ function ProductCard(props) {
           <h3 className="product-title">{props.heading}</h3>
         </div>
         <div className="product-text">
-          <p className="why-text">{props.text}</p>
+          <p className="product-text-text">{props.text}</p>
         </div>
       </div>
     </>
