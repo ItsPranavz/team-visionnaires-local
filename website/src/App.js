@@ -10,8 +10,8 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
 import Home from './pages/Home'
-import WebAppHeader from './components/WebAppHeader';
-;
+
+
 function App() {
   return (
     <>
@@ -28,7 +28,7 @@ function App() {
         </>
       </Router>
       
-    
+      
 
 
     </>
