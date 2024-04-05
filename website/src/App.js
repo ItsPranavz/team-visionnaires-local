@@ -7,7 +7,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import  Features  from '../src/components/Features.jsx';
 import Heading from './components/Heading.jsx';
 import WhySection from './components/WhySection.jsx';
-
+import ProductSection from './components/ProductSection.jsx';
 function App() {
   return (
     <>
@@ -19,6 +19,8 @@ function App() {
         <Heading title="Why Choose Us?" />
         <WhySection />
         <Footer />
+
+        <ProductSection />
         
     </>
   );
