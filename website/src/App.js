@@ -15,7 +15,7 @@ import WebAppHeader from './components/WebAppHeader';
 function App() {
   return (
     <>
-        {/* <Router>
+        <Router>
         <>
        
           <Routes>
@@ -27,8 +27,8 @@ function App() {
          
         </>
       </Router>
-       */}
-       <WebAppHeader/>
+      
+    
 
 
     </>
