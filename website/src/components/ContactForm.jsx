@@ -19,7 +19,7 @@ const ContactForm = () => {
   }
   return (
     <div className="container mt-5 p-4 form-container">
-     <h2>Contact Us</h2>
+     <h2 className='contactform-heading'>Contact Us</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
@@ -56,8 +56,8 @@ const ContactForm = () => {
           </label>
           <textarea className="form-control" id="message" rows="5"  />
         </div>
-        <div class="button"> 
-        <button className="btn btn-danger" type="submit">
+        <div class="contactform-button"> 
+        <button className="btn btn-primary" type="submit">
           {formStatus}
         </button>
 
