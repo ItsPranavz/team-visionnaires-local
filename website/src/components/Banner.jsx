@@ -9,7 +9,7 @@ function Banner() {
         <div className="banner-container">
             <img className="banner-image" src={img} />
             <p className="banner-heading"><Typewriter className="typewriter" text="FINDING THE RIGHT SOLUTION FOR YOUR BUSINESS IN SUPPLY CHAIN ANALYSIS, TRANSPORT MONITORING, DEMAND FORECASTING" delay={1000} /></p>
-            <p className="banner-content">"We are aiming to build a Supply Chain Management Solution, which will help all the stakeholders of the Supply Chain to manage and access data of quantity ordered and how much to keep in buffer stock, in order to mitigate the impact of "BullWhip" effect."</p>
+            <p className="banner-content">We are aiming to build a Supply Chain Management Solution, which will help all the stakeholders of the Supply Chain to manage and access data of quantity ordered and how much to keep in buffer stock, in order to mitigate the impact of bullwhip effect.</p>
             <Button className='banner-button' variant="btn btn-primary">Request a demo</Button>
         </div>
     )
