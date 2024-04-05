@@ -10,13 +10,14 @@ function Header() {
     <Navbar expand="lg" className="header">
       <Container fluid>
         <Navbar.Brand href="/"><img className='header-logo' src={logo}></img></Navbar.Brand>
-        <Navbar.Brand href="/">Visionnaires</Navbar.Brand>
+        <Navbar.Brand className='header-title' href="/"><b>Visionnaires</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className='justify-content-end' id="navbarScroll">
           <Nav
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+            <Nav.Link className='header-link' href="/">Home</Nav.Link>
             <Nav.Link className='header-link' href="/products">Products</Nav.Link>
             <Nav.Link className='header-link' href="/aboutus">About Us</Nav.Link>
             <Nav.Link className='header-link' href="/contactus">Contact Us</Nav.Link>

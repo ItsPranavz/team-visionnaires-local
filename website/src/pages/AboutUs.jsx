@@ -10,7 +10,7 @@ function AboutUs() {
         <>
             <Header />
             <Quotes />
-            <Heading title="Meet Our Team" />
+            <Heading title="Meet Our Team"/>
             <OurTeam />
             <Footer />
         </>

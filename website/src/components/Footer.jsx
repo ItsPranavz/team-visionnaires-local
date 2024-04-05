@@ -13,11 +13,11 @@ function Footer() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md='3' lg='4' xl='3' className='bg-color mx-auto mb-4'>
+            <MDBCol md='4' lg='5' xl='6' className='bg-color mx-auto mb-4'>
               <h6 className='footer-title footer-top text-uppercase fw-bold mb-4'>
                  Our Vision
               </h6>
-              <p>
+              <p className='footer-text'>
               We are aiming to build a Supply Chain Management Solution, which will help all the stakeholders of the Supply Chain to manage and access data of quantity ordered and how much to keep in buffer stock, in order to mitigate the impact of "BullWhip" effect.
               </p>
             </MDBCol>
@@ -72,7 +72,7 @@ function Footer() {
         <img className='footer-logo' src={mcdonalds}></img>
       </div>
 
-      <div className='text-center p-4 custom-background custom-text-color' >
+      <div className='footer-foot text-center p-4 custom-background custom-text-color' >
         © 2024 Copyright  All Rights Reserved 
       </div>
 

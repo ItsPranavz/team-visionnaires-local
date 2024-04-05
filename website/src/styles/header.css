@@ -5,9 +5,10 @@
     width: auto;
 }
 
-.header-link, .header-button {
+.header-link, .header-button, .header-title {
     margin: 5px;
     font-family: 'poppins', sans-serif;
+    font-size: 20px;
 }
 
 .header {
