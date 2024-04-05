@@ -21,7 +21,7 @@ function Header() {
             <Nav.Link className='header-link' href="/products">Products</Nav.Link>
             <Nav.Link className='header-link' href="/aboutus">About Us</Nav.Link>
             <Nav.Link className='header-link' href="/contactus">Contact Us</Nav.Link>
-            <Button className='header-button' variant="outline-primary">Go to Dashboard</Button>
+            <Button className='header-button' variant="outline-primary" href="/login">Go to Dashboard</Button>
           </Nav>
 
         </Navbar.Collapse>
