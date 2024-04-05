@@ -20,7 +20,6 @@ function App() {
             <Route exact path="/aboutus" Component={AboutUs}/>
             <Route exact path="/contactus" Component={ContactUs}/>
             <Route exact path="/products" Component={Products}/>
-            
           </Routes>
          
         </>
