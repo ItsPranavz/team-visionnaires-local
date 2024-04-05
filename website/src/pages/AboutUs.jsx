@@ -5,7 +5,6 @@ import Quotes from "../components/Quotes";
 import Heading from "../components/Heading";
 import OurTeam from "../components/OurTeam";
 
-
 function AboutUs() {
     return (
         <>
