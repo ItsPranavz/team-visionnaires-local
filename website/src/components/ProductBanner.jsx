@@ -7,7 +7,7 @@ function ProductBanner() {
     <>
       <div className="product-banner">
         <img className="product-image" src={productbg} />
-        <Button className="product-banner-button" variant="outline-light">
+        <Button href="/contactus" className="product-banner-button" variant="outline-light">
           Reach Out To Us
         </Button>
       </div>
