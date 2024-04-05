@@ -7,19 +7,14 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import  Features  from '../src/components/Features.jsx';
 import Heading from './components/Heading.jsx';
 import WhySection from './components/WhySection.jsx';
+import Quotes from './components/Quotes.jsx';
+import OurTeam from './components/OurTeam.jsx';
+import AboutUs from './pages/AboutUs.jsx';
 
 function App() {
   return (
     <>
-        <Header />
-        <Banner />
-        <Heading title="Key Features" />
-        <Features />
-        <Data />
-        <Heading title="Why Choose Us?" />
-        <WhySection />
-        <Footer />
-        
+        <AboutUs />
     </>
   );
 }
