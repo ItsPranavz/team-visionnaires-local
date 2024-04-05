@@ -12,10 +12,10 @@ function Products() {
       <Header />
        
       <ProductBanner/>
-      <Heading title="Our Products" />
+      <Heading title="Our Products" alt="true"/>
       <ProductSection />
       <Data/>
-      <Heading title="Why Choose Us?" />
+      <Heading title="Why Choose Us?" alt="false"/>
       <WhySection />
       <Footer />
     </>

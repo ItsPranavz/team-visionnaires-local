@@ -3,6 +3,7 @@
   color: #375bae;
   font-family: Cambria;
   font-weight: 500;
+  font-size: 45px;
 }
 
 .btn btn-primary {
@@ -16,6 +17,7 @@
 .contactform-button button {
   background-color: #6786b5;
   border-color: none;
+  font-size: 24px;
 }
 
 .contactform-button button:hover {
@@ -26,6 +28,7 @@
   color: #000000;
   font-weight: 600;
   font-family: Cambria;
+  font-size: 24px;
 }
 
 .form-container {

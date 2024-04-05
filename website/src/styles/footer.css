@@ -43,4 +43,15 @@
 
 .footer-title {
   color: rgb(145, 27, 27) !important;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.footer-text, .text-reset {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-foot {
+  font-size: 20px;
 }

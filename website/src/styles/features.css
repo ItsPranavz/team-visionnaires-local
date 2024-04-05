@@ -1,16 +1,19 @@
 .card-container{
     margin-left: 30px;
     margin-right:100px;
-    
 }
 
 .features-card{
     margin-top:40px;
-    min-height: 550px;
     background-color: transparent;
     backdrop-filter: blur(30px);
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    
+    min-width: 400px;
+    min-height: 700px;
+}
+
+.features-heading {
+  font-size: 26px;
 }
 
 @keyframes scaleUp {
@@ -32,3 +35,6 @@
     
 }
 
+.features-text {
+  font-size: 22px;
+}
