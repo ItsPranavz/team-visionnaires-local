@@ -1,44 +1,44 @@
-h2 {
+.contactform-heading {
   text-align: center;
-  color: #773344;
+  color: #375bae;
   font-family: Cambria;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.btn btn-danger {
+.btn btn-primary {
   text-align: center;
 }
 
-.button {
+.contactform-button {
   text-align: center;
 }
 
-.button button {
-  background-color: #b57267;
+.contactform-button button {
+  background-color: #6786b5;
   border-color: none;
 }
 
-.button button:hover {
-  background-color: #773344;
+.contactform-button button:hover {
+  background-color: #4139a3;
 }
 
 .form-label {
-  color: #773344;
+  color: #000000;
   font-weight: 600;
   font-family: Cambria;
 }
 
 .form-container {
-  background-color: #F5DEBD;
+  background-color: #bde0f5;
   border-radius: 20px;
 }
 
 .form-control:hover {
-  border-color: rgb(221, 137, 151);
+  border-color: rgb(137, 213, 221);
 
 }
 
 
 .form-container h2 {
-  color: #773344;
+  color: #000000;
 }

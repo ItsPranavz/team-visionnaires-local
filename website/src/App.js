@@ -10,11 +10,12 @@ import WhySection from './components/WhySection.jsx';
 import Quotes from './components/Quotes.jsx';
 import OurTeam from './components/OurTeam.jsx';
 import AboutUs from './pages/AboutUs.jsx';
+import ContactUs from './pages/ContactUs.jsx';
 
 function App() {
   return (
     <>
-        <AboutUs />
+        <ContactUs />
     </>
   );
 }
