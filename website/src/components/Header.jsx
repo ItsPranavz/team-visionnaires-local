@@ -9,17 +9,17 @@ function Header() {
   return (
     <Navbar expand="lg" className="header">
       <Container fluid>
-        <Navbar.Brand href="#"><img className='header-logo' src={logo}></img></Navbar.Brand>
-        <Navbar.Brand href="#">Visionnaires</Navbar.Brand>
+        <Navbar.Brand href="/"><img className='header-logo' src={logo}></img></Navbar.Brand>
+        <Navbar.Brand href="/">Visionnaires</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className='justify-content-end' id="navbarScroll">
           <Nav
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='header-link' href="#products">Products</Nav.Link>
-            <Nav.Link className='header-link' href="#about">About Us</Nav.Link>
-            <Nav.Link className='header-link' href="#contact">Contact Us</Nav.Link>
+            <Nav.Link className='header-link' href="/products">Products</Nav.Link>
+            <Nav.Link className='header-link' href="/aboutus">About Us</Nav.Link>
+            <Nav.Link className='header-link' href="/contactus">Contact Us</Nav.Link>
             <Button className='header-button' variant="outline-primary">Go to Dashboard</Button>
           </Nav>
 
