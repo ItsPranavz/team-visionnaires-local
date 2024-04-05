@@ -9,10 +9,12 @@ import Heading from './components/Heading.jsx';
 import WhySection from './components/WhySection.jsx';
 import ProductSection from './components/ProductSection.jsx';
 import Products from './pages/Products.jsx';
+import Home from '../src/pages/Home.jsx';
+
 function App() {
   return (
     <>
-        <Products />
+        <Home />
     </>
   );
 }
