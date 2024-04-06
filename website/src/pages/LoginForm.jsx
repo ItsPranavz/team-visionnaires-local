@@ -19,7 +19,7 @@ const LoginForm = () => {
         .then(result => {
             console.log(result);
             if (result.data === 'Success') {
-                navigate('/home'); // Use the navigate function to redirect to '/home'
+                navigate('/dashboard'); // Use the navigate function to redirect to '/home'
             }
         })
         .catch(err => {
